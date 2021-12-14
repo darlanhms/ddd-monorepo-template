@@ -106,3 +106,7 @@ lib
 
 # temp
 tmp_result.txt
+
+# outputs
+build/**
+dist/**
