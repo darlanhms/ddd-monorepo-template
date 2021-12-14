@@ -4891,6 +4891,13 @@ tsutils@^3.17.1:
   dependencies:
     tslib "^1.8.1"
 
+turbo@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/turbo/-/turbo-1.0.9.tgz#a955d1db1ec0080e542be427bd0eeb9ebb38a357"
+  integrity sha512-th0vdSpiO0gWQfehhTsG6vDXnq2fRXwvWSy1/LW2PBosv7VGgD2RENRVpjvPCNo7xEnkF6hZXnBfz0Tlvwu32A==
+  dependencies:
+    zlib "^1.0.5"
+
 type-check@~0.3.2:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/type-check/-/type-check-0.3.2.tgz#5884cab512cf1d355e3fb784f30804b2b520db72"
@@ -5243,3 +5250,8 @@ yn@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/yn/-/yn-2.0.0.tgz#e5adabc8acf408f6385fc76495684c88e6af689a"
   integrity sha1-5a2ryKz0CPY4X8dklWhMiOavaJo=
+
+zlib@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/zlib/-/zlib-1.0.5.tgz#6e7c972fc371c645a6afb03ab14769def114fcc0"
+  integrity sha1-bnyXL8NxxkWmr7A6sUdp3vEU/MA=
