@@ -1,0 +1,21 @@
+{
+  "name": "library-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev -r tsconfig-paths/register -r dotenv/config --respawn --transpile-only --ignore-watch node_modules --no-notify src/www.ts",
+    "start": "cross-env NODE_ENV=production node dist/www.js",
+    "build": "tsc",
+    "up:db": "docker compose -f docker.compose-db.yml up -d",
+    "migration:create": "ts-node --transpile-only -r tsconfig-paths/register ./node_modules/typeorm/cli.js migration:create -n ",
+    "migration:run": "ts-node --transpile-only -r tsconfig-paths/register ./node_modules/typeorm/cli.js migration:run",
+    "migration:revert": "ts-node --transpile-only -r tsconfig-paths/register ./node_modules/typeorm/cli.js migration:revert"
+  },
+  "dependencies": {
+    "ddd-utils": "*",
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "typeorm": "^0.2.41"
+  }
+}

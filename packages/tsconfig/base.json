@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "composite": false,
+        "strict": true,
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "strictPropertyInitialization": false,
+        "sourceMap": true,
+        "declaration": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "removeComments": true,
+        "noEmitOnError": true
+    },
+    "exclude": ["node_modules"]
+}

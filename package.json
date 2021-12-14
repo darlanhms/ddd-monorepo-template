@@ -6,14 +6,16 @@
     "repository": "https://github.com/pedidos10/pedidos10-api",
     "author": "Dev10 <desenvolvimento@pedidos10.com.br>",
     "license": "MIT",
-    "workspaces": [
-        "apps/*",
-        "packages/*"
-    ],
-    "nohoist": [
-        "**/typeorm/**",
-        "**/typeorm"
-    ],
+    "workspaces": {
+        "packages": [
+            "apps/*",
+            "packages/*"
+        ],
+        "nohoist": [
+            "**/typeorm",
+            "**/typeorm/**"
+        ]
+    },
     "scripts": {
         "build": "turbo run build",
         "dev": "turbo run dev --parallel",
